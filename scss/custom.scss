@@ -5,7 +5,7 @@ $elyse-project-color: #651B63;
 // add your project main color here:
 // $MYNAME-project-color: HEXVALUE;
 
-
+$carlosv-project-color: #7C0003;
 
 
 // change the body background color on each page based on your name
@@ -18,3 +18,6 @@ $elyse-project-color: #651B63;
 
 #sartaj {}
 
+#carlosv {
+    @include readable($carlosv-project-color); // this readable mixin is in color-test.scss. it determines what the font color should be based on your background color!
+}
